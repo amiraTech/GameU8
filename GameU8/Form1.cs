@@ -245,10 +245,8 @@ namespace GameU8
             {
                 pbLives1.Visible = false;
             }
-
+       
             GameTimer.Start();
-
-
         }
 
         private void MoveGameElements(string direction)
