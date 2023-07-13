@@ -14,7 +14,7 @@ namespace GameU8
     {
 
 
-        // Declaring variables \\
+        // Declaring the variables \\
         bool goLeft, goRight, jumping, hasKey;
         int jumpSpeed = 10;
         int force = 0;
