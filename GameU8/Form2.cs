@@ -13,7 +13,7 @@ namespace GameU8
     public partial class Form2 : Form
     {
 
-        // Declaring the variables \\
+        // Declaring variables \\
         bool goLeft, goRight, jumping, hasKey;
         int jumpSpeed = 10;
         int force = 0;
