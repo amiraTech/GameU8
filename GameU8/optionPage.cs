@@ -12,7 +12,7 @@ namespace GameU8
 {
     public partial class optionPage : Form
     {
-
+       
 
         private bool isBackgroundMusicOn = true;
         private System.Media.SoundPlayer backgroundMusicPlayer;

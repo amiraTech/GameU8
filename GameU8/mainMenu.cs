@@ -20,7 +20,8 @@ namespace GameU8
             InitializeComponent();
         }
 
-        
+        // Display the main menu screen \\
+
         private void mainMenu_Load(object sender, EventArgs e)
         {
 
