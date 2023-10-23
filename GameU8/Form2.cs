@@ -14,6 +14,7 @@ namespace GameU8
     {
 
         // Declaring variables \\
+
         bool goLeft, goRight, jumping, hasKey;
         int jumpSpeed = 10;
         int force = 0;
@@ -28,6 +29,7 @@ namespace GameU8
         private int seconds = 0;
 
 
+        // Initialise the code \\
 
         public Form2()
         {
@@ -37,6 +39,7 @@ namespace GameU8
 
         private void MainTimerEvent(object sender, EventArgs e)
         {
+            
             lblScore.Text = "Score: " + score;
             pbPlayer.Top += jumpSpeed;
 
@@ -70,6 +73,7 @@ namespace GameU8
 
 
             // Ensures that the player can jump \\
+
             if (jumping == true)
             {
                 jumpSpeed = -12;
@@ -174,6 +178,8 @@ namespace GameU8
 
 
 
+        // Ensures that the players movement are controlled by arrow keys \\
+
         private void Form2_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -210,6 +216,8 @@ namespace GameU8
 
         }
 
+
+        // Initiates the timer once the game starts \\
 
         private void timer2_Tick(object sender, EventArgs e)
         {

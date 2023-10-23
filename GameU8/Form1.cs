@@ -15,6 +15,7 @@ namespace GameU8
 
 
         // Declaring variables \\
+
         bool goLeft, goRight, jumping, hasKey;
         int jumpSpeed = 10;
         int force = 0;
@@ -24,6 +25,7 @@ namespace GameU8
         int lives = 3;
 
 
+        // Initialise the code \\
 
         public Form1()
         {
@@ -174,6 +176,9 @@ namespace GameU8
 
         }
 
+
+        // Ensures that the players movement are controlled by arrow keys \\
+
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -212,6 +217,8 @@ namespace GameU8
 
 
         private int seconds = 0;
+
+        // Initiates the timer once the game starts \\
 
         private void timer1_Tick(object sender, EventArgs e)
         {

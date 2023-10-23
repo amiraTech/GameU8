@@ -12,6 +12,9 @@ namespace GameU8
 {
     public partial class mainMenu : Form
     {
+        
+        // Initialise the code \\
+
         public mainMenu()
         {
             InitializeComponent();

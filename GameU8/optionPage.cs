@@ -18,6 +18,8 @@ namespace GameU8
         private System.Media.SoundPlayer backgroundMusicPlayer;
 
 
+        // Initialise the code \\
+
         public optionPage()
         {
             InitializeComponent();
@@ -45,7 +47,7 @@ namespace GameU8
         }
 
 
-
+        // Play background music if it's on, stops if it's off \\
 
         private void UpdateBackgroundMusic()
         {
@@ -61,6 +63,8 @@ namespace GameU8
             }
         }
        
+
+        // If you click the back button, it will take you back to the main menu \\
 
         private void btnBack_Click(object sender, EventArgs e)
         {
