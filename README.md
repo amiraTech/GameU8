@@ -23,7 +23,5 @@ The game encountered functionality issues, particularly related to character mov
 - Changes to the platform style.
 - The introduction of a key mechanic.
 - The creation of a new level.
-- Visual improvements to enhance the game's appeal.  
-
-**Ongoing Work:**
-Despite these improvements, the game still faces ongoing functionality problems that prevent it from fully meeting user requirements. This is work in progress.
+- Visual improvements to enhance the game's appeal.
+  
