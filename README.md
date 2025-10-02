@@ -1,4 +1,4 @@
-# GameU8
+# Side Scrolling 2D Platform Game
 
 **Project Overview:**
 Welcome to GameU8, a personal project designed for enjoyment and learning. This game is created for children aged around 8 to 12 and involves navigating a character through various levels, collecting items, and avoiding hazards.
