@@ -50,4 +50,3 @@ The game encountered functionality issues, particularly related to character mov
 - The introduction of a key mechanic.
 - The creation of a new level.
 - Visual improvements to enhance the game's appeal.
-  
